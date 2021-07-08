@@ -1,0 +1,125 @@
+<div class="container mt-10 text-center">
+    <div class="row">
+        <div class="col base">
+            <div class="b">
+                <div class="numbers">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td  colspan="4" >
+                                <div class="maind">
+                                    <div class="subd">
+                                        {{currentEle}}
+                                    </div>
+                                    <div class="subd1">
+                                        {{operator}}
+                                    </div>
+                                    <div class="subd1">
+                                        RESULT : {{ans}}
+                                    </div>
+                                </div>
+                            </td>
+                            <br>
+                        </tr>
+                        <tr>
+                            <td  colspan="3" >
+                                <div class="d-grid gap-2">
+                                    <button style="height:70px" (click)="allClear()"  class="btn btn-primary btn-lg" type="button">AC</button>
+                                  </div>
+                            </td>
+                            <td  colspan="1" >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="opk('/')" type="button" class="btn btn-dark btn-lg">/</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('7')" type="button" class="btn btn-secondary btn-lg">7</button>
+                            </div>
+                            </td>  
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('8')" type="button" class="btn btn-secondary btn-lg">8</button>
+                            </div>
+                            </td>
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('9')" type="button" class="btn btn-secondary btn-lg">9</button>
+                            </div>
+                            </td>  
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="opk('*')" type="button" class="btn btn-dark btn-lg">*</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px"  (click)="numk('4')" type="button" class="btn btn-secondary btn-lg">4</button>
+                            </div>
+                            </td>  
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('5')" type="button" class="btn btn-secondary btn-lg">5</button>
+                            </div>
+                            </td>
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('6')" type="button" class="btn btn-secondary btn-lg">6</button>
+                            </div>
+                            </td>  
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="opk('-')" type="button" class="btn btn-dark btn-lg">-</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('3')" type="button" class="btn btn-secondary btn-lg">3</button>
+                            </div>
+                            </td>  
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('2')" type="button" class="btn btn-secondary btn-lg">2</button>
+                            </div>
+                            </td>
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('1')" type="button" class="btn btn-secondary btn-lg">1</button>
+                            </div>
+                            </td>  
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="opk('+')" type="button" class="btn btn-dark btn-lg">+</button>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('0')" type="button" class="btn btn-secondary btn-lg">0</button>
+                            </div>
+                            </td>  
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="numk('.')" type="button" class="btn btn-secondary btn-lg">.</button>
+                            </div>
+                            </td>
+                            <td  >
+                                <div class="d-grid gap-2">
+                                <button style="height:70px" (click)="opk('=')" type="button" class="btn btn-success btn-lg">=</button>
+                            </div>
+                            </td>  
+                        </tr>
+                        
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
